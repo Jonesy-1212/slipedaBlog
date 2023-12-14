@@ -50,7 +50,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/Jonesy-1212/slipedaBlog/',
+          editUrl: 'https://github.com/Jonesy-1212/slipedaBlog/blob/main/',
           // remarkPlugins: [math],
           // rehypePlugins: [katex],
           // showLastUpdateTime: true,
