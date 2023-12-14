@@ -3,8 +3,9 @@
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
+const math = require('remark-math')
+const katex = require('rehype-katex')
+import { themes as prismThemes } from 'prism-react-renderer'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -30,7 +31,7 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-CN',//en
+    defaultLocale: 'zh-CN', //en
     locales: ['zh-CN'],
   },
 
@@ -49,18 +50,29 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/Jonesy-1212/slipedaBlog/',
+          // remarkPlugins: [math],
+          // rehypePlugins: [katex],
+          // showLastUpdateTime: true,
+          // showLastUpdateAuthor:true
         },
         blog: {
           showReadingTime: true,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
+          blogSidebarTitle: '全部',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'daily',
+          priority: 0.5,
         },
       }),
     ],
@@ -84,7 +96,7 @@ const config = {
             position: 'left',
             label: '学习笔记',
           },
-          {to: '/blog', label: '博客', position: 'left'},
+          { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/Jonesy-1212',
             label: 'GitHub',
@@ -141,7 +153,22 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
-};
+      // algolia: {
+      //   // appId: 'FULE7ZKRWQ',
 
-export default config;
+      //   // // Public API key: it is safe to commit it
+      //   // apiKey: '6206ca5a3da00fad9c7e4bf05f83ee61',
+
+      //   // // algolia application name
+      //   // indexName: 'quanscheng',
+
+      //   // // Optional: see doc section below
+      //   // contextualSearch: true,
+
+      //   // Optional: path for search page that enabled by default (`false` to disable it)
+      //   searchPagePath: 'search',
+      // },
+    }),
+}
+
+export default config
