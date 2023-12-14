@@ -1,10 +1,7 @@
 ---
 slug: react-router知识点总结
 title: react-router知识点总结
-author: Slipeda
-author_title: Front-end Engineer
-author_url: https://github.com/Jonesy-1212/
-author_image_url: https://shapeimage.oss-cn-shenzhen.aliyuncs.com/kdlImage/7e603d7eaa7741cdaf540ab85e900876-logo.jpg
+authors: [Slipeda]
 description: 如何使用react-router实现一个路由权限判断
 tags: [前端, react, react-router]
 # activityId: 相关动态 ID

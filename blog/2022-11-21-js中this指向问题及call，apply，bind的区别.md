@@ -1,10 +1,7 @@
 ---
 slug: js中this指向问题及call，apply，bind的区别
 title: js中this指向问题及call，apply，bind的区别
-author: Slipeda
-author_title: Front-end Engineer
-author_url: https://github.com/Jonesy-1212/
-author_image_url: https://shapeimage.oss-cn-shenzhen.aliyuncs.com/kdlImage/7e603d7eaa7741cdaf540ab85e900876-logo.jpg
+authors: [Slipeda]
 description: js中this指向问题及call，apply，bind的区别。
 tags: [前端, javascript]
 # activityId: 相关动态 ID

@@ -1,10 +1,7 @@
 ---
 slug: react-ts-starter
 title:  React + TS最小上手指南
-author: Slipeda
-author_title: Front-end Engineer
-author_url: https://github.com/Jonesy-1212/
-author_image_url: https://shapeimage.oss-cn-shenzhen.aliyuncs.com/kdlImage/7e603d7eaa7741cdaf540ab85e900876-logo.jpg
+authors: [Slipeda]
 description: window.location
 tags: [react, TypeScript]
 ---

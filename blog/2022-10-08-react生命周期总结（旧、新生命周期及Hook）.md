@@ -1,10 +1,7 @@
 ---
 slug: react生命周期总结（旧、新生命周期及Hook）
 title: react生命周期总结（旧、新生命周期及Hook）
-author: Slipeda
-author_title: Front-end Engineer
-author_url: https://github.com/Jonesy-1212/
-author_image_url: https://shapeimage.oss-cn-shenzhen.aliyuncs.com/kdlImage/7e603d7eaa7741cdaf540ab85e900876-logo.jpg
+authors: [Slipeda]
 description: react生命周期总结（旧、新生命周期及Hook）。
 tags: [前端, react]
 # activityId: 相关动态 ID
