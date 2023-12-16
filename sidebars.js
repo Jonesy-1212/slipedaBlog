@@ -66,7 +66,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'javascript(1)',
+      label: 'javascript(4)',
       items: [
         'javascript/01数据类型',
         'javascript/02this',
