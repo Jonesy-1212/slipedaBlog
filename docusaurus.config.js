@@ -90,12 +90,12 @@ const config = {
           src: 'img/logo.jpg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: '学习笔记',
-          },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: '学习笔记',
+          // },
           { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://github.com/Jonesy-1212',
@@ -168,6 +168,11 @@ const config = {
       //   // Optional: path for search page that enabled by default (`false` to disable it)
       //   searchPagePath: 'search',
       // },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
     }),
 }
 
